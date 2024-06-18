@@ -1,0 +1,48 @@
+const translations = {
+  uk: {
+    register: "Реєстрація",
+    login: "Увійти",
+    logout: "Вийти",
+    review: "Відгуки",
+    noAuth: "Увійдіть до облікового запису, щоб додати відгук",
+    noReviewsAuth: "Відгуків поки що немає, додайте перший",
+    noReviews: "Відгуків поки немає, увійдіть до облікового запису, щоб додати перший",
+    allProducts: "Усі продукти",
+    plceholderName: "Ім'я користувача",
+    placeholderPassword: "Пароль",
+    placeholderReview: "Ваш відгук",
+    placeholderSearch: "Шукай товар",
+    addReview: "Додати відгук",
+    showPassword: "Показати",
+    hidePassword: "Сховати",
+    loginFailed: "Неправильний логін або пароль",
+    incorrectPasswordFormat: "Пароль має бути не менше 6 символів", 
+    checkNameRegistration: "Ім'я користувача вже існує",
+    adjustPasswordRegistration: "Потрібно додати спеціальні символи чи цифри",
+    notFound:"Упс, жодного товару немає :("
+  },
+  en: {
+    register: "Register",
+    login: "Login",
+    logout: "Log Out",
+    review: "Reviews",
+    noAuth: "Log in to add review",
+    noReviewsAuth: "No reviews yet, log in to add first",
+    noReviews: "No reviews yet, log in to add first",
+    allProducts: "All Products",
+    plceholderName: "User name",
+    placeholderPassword: "Password",
+    placeholderReview: "Your review",
+    placeholderSearch: "Search product",
+    addReview: "Add Review",
+    showPassword: "Show",
+    hidePassword: "Hide",
+    loginFailed: "Incorrect login or password",
+    incorrectPasswordFormat : "Password must be at least 6 characters",
+    checkNameRegistration: "User name already exists",
+    adjustPasswordRegistration: "Password must contain special characters or numbers",
+    notFound:"Oops, there is no such product :("
+  },
+};
+
+export default translations;

@@ -1,0 +1,52 @@
+.reviewListContainer {
+  max-width: 800px;
+  margin: 40px auto 0px auto;
+  padding: 2rem;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.reviewList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.reviewItem {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  margin-bottom: 1.5rem;
+  padding: 1.5rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  align-items: flex-start;
+}
+
+.reviewUsername {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.reviewRating {
+  font-size: 1rem;
+  color: #f39c12;
+}
+
+.reviewText {
+  line-height: 1.5;
+  color: #666;
+  margin: 0;
+}
+
+.noAuthMessage{
+  padding: 10px;
+  margin: 10px 0px 30px 0px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
